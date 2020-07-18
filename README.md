@@ -1,6 +1,10 @@
-# Front-end Challenge - Doc88
+# Desafio | Frontend Developer | Wecont
 
-A necessidade é desenvolver o projeto "Pastel de Ideias", onde o usuário pode criar um cardápio para sua pastelaria. #DeuFome
+Olá! Seja bem vindo ao teste para a vaga de Frontend Developer.
+
+Preparamos um teste que abordará seus conhecimentos em Vue.js. Você será encaixado na vaga de acordo com seu resultado.
+
+A necessidade é desenvolver o projeto "Busca Produtos", onde o usuráio pode listar os produtos disponíveis na loja.
 
 ## Instruções para entrega
 
@@ -9,34 +13,31 @@ A necessidade é desenvolver o projeto "Pastel de Ideias", onde o usuário pode 
 * Envie um email com o link do seu repositório para fernando.dias@doc88.com.br
 * Dúvidas podem ser enviadas para o mesmo email acima.
 
-## Layout e Material
+## Layout e API
 
-Todos os assets necessários para o desenvolvimento estão disponíveis para download em https://xd.adobe.com/spec/855f4c8d-dd32-45f7-784b-3b38f80782fa-f36e/
+Você terá que implementar o *layout* de acordo com esse **[mock](https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/)**. O *mock* contém a estrutura do layout e todo o estilo da página.
 
-![Captura de Tela (1)](https://user-images.githubusercontent.com/1139893/66259052-0c9f2880-e783-11e9-9cde-6dfe432ebd8a.png)
+É importante se ater aos detalhes de tamanho e espaçamento entre os elementos da página.
+
+**Link do layout**: https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/
+
+**Endpoint da API**: https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1
 
 ## Requisitos
 
-* Implemente o HTML/CSS da tela com base no layout disponível em https://xd.adobe.com/view/4bdff275-a804-4a06-5f3a-5197149e261f-3dee/screen/493ba0b0-f711-4e85-86dc-e8deadd7d02b/Web-1920-4?fullscreen
-* O projeto deve ser uma *single page application (SPA)* escrita utilizando Vue ou Nuxt.
-* Campos "título do pedido" e "sabor" devem ser: obrigatorios, do tipo texto, mínimo de 3 e máximo de 60 caracteres.
-* Campo "preço" deve ser: obrigatorio e do tipo numero.
-* Campo "descrição" deve ser do tipo texto. 
-* Campo "imagem" deve mostrar um preview da imagem ao fazer o upload e aceitar apenas arquivos no formato .jpg ou .png. 
-* Campo "comida para bebida", ao alterar deve manter informações no formulário.
-* Ao clicar no botão "Limpar" todos os campos devem ficar vazios, inclusive a imagem.
-* Ao clicar no botão "Cadastrar" os dados do item devem ir para lista de pedidos, sendo que o último pedido cadastrado deverá ir para o topo.
-* Na lista de pedidos, caso não tenha imagem cadastrada, usar uma padrão.
-* Não é preciso se preocupar com persistência dos dados. É esperado que o itens cadastrados sejam perdidos com o recarregamento da página (F5).
+* Implemente o HTML/CSS da tela com base no layout disponível em https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/
+* O projeto deve ser uma *single page application (SPA)* escrita utilizando **Vue**.
+* Para cada **produto** retornado pela API, um **card de produto** com as respectivas informações deve ser criado na grade de produtos.
+* Ao clicar no botão **Ainda mais produtos aqui!** a próxima página da API deve ser consultada, gerando mais **8 produtos** na grade existente, abaixo dos produtos já carregados pela primeira requisição.
+* O formulário de *newsletter* com o título **Compartilhe a novidade** deve ter seus campos de *input* validados de acordo com o conteúdo (ex: O campo de email deve conter um email válido); 
+* Ao submeter o formulário, deve-se mostrar um retorno (Sucesso, se os campos passaram na validação. Fracasso, se não) na tela; 
+* Não é preciso se preocupar com persistência dos dados. É esperado que as informações coletadas e submetidas sejam perdidas com o recarregamento da página (F5).
+* Tornar o layout responsivo.
 
 ## Requisitos Opcionais
 
-* Tornar o layout responsivo.
-* Desenvolvimento de testes unitários no Javascript.
 * Padronização do código: seguir algum styleguide de Javascript e/ou CSS.
-* Aplicação das animações de transição.
-* Upload de imagem com drag and drop (Arrasta e solta).
-* Efeito paralax no pastel que está desfocado. Algo como o aplicado no site https://buffalowax.com
+* Aplicação de animações.
 * E qualquer outra sugestão sua
 
 ## Critérios de avaliação
@@ -47,3 +48,7 @@ Todos os assets necessários para o desenvolvimento estão disponíveis para dow
 * Clareza de nomenclatura do CSS;
 * HTML estruturado de forma semântica;
 * Requisitos Opcionais
+
+## Não conseguiu fazer tudo?
+
+A sua forma de priorizar a entrega também vai ser considerada. Documente em um arquivo a parte o que você conseguiu e não conseguiu implementar, descrevendo porque você preferiu priorizar desta maneira.
