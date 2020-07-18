@@ -10,7 +10,7 @@ A necessidade é desenvolver o projeto "Busca Produtos", onde o usuráio pode li
 
 * Versione, com git, e hospede seu código em algum serviço de sua preferência: github, bitbucket, gitlab ou outro.
 * Crie um README com instruções claras sobre como executar sua obra.
-* Envie um email com o link do seu repositório para fernando.dias@doc88.com.br
+* Envie um email com o link do seu repositório para guilherme.brant@wecont.net
 * Dúvidas podem ser enviadas para o mesmo email acima.
 
 ## Layout e API
