@@ -21,6 +21,8 @@ Você terá que implementar o *layout* de acordo com esse **[mock](https://xd.ad
 
 **Link do layout**: https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/
 
+Para preencher a página com as informações dos produtos, você terá que consultar esta **[API](https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1)** de forma paginada, sendo que cada página consultada retornará as informações de **8 produtos** e um **link para a próxima página**.
+
 **Endpoint da API**: https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1
 
 ## Requisitos
